@@ -6,3 +6,5 @@ IMAGE/
 output/
 project/app/wifi_app/wpa_supplicant.conf
 config/
+.cache
+compile_commands.json
