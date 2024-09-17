@@ -1,0 +1,8 @@
+config BR2_PACKAGE_GST_ROCKCHIPMPP
+    bool "gst-rockchipmpp"
+    select BR2_PACKAGE_GSTREAMER1
+    select BR2_PACKAGE_GST1_PLUGINS_BASE
+    help
+      This package contains the GStreamer plug-ins for Rockchip,
+      enabling support for hardware-accelerated multimedia processing.
+
